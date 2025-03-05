@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+
+}
+:root{
+    --color1 :#EB5A3C;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+.header {
+  padding: 20px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  box-shadow: 1px 1px 5px #666;
+  /* background-color: #EB5A3C; */
+ 
+  
+
+}
+
+.header .nav {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.header .nav .logo {
+  font-size: 2.4em;
+  font-family: "inter", serif;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: capitalize;
+}
+.header .nav .menu ul li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 1.5em;
+  text-transform: capitalize;
+  
+}
+
+.header .nav .menu ul li a{
+    color: #666;
+}
+
+
+.header .nav .menu ul li a:hover{
+    color: var(--color1);
+    letter-spacing: 3px;
+}
+
+.header .add-cart{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.header .add-cart .svg:hover{
+    transform: rotate(360deg);
+    
+    
+
+}
+.header .add-cart  .image img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+
+/* hero-section */
+
+.hero-section{
+    padding: 0px 5%;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    
+    
+}
+
+.hero-section .left-side{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 30%;
+    
+}
+
+.hero-section .left-side .image img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.hero-section .left-side .small-image{
+    width: 20%;
+    display: flex;
+    gap: 25px;
+  
+
+
+}
+
+.hero-section .left-side .small-image img{
+    width: 100%;
+    border-radius: 10px;
+    
+
+}
+
+
+.hero-section  .right-side{
+    width: 40%;
+    padding-top:40px ;
+}
+
+.hero-section .right-side .heading h5{
+    font-size: 1.7em;
+    font-family: "inter", serif;
+    margin-bottom: 10px;
+}
+
+.hero-section .right-side .heading h1{
+    font-size: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+}
+
+.hero-section .right-side .heading p{
+    font-size: 1.4em;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.right-side .heading .price h4{
+    font-size: 1.8em;
+
+}
+.right-side .heading .price span p{
+    font-size:1em;
+    text-decoration: line-through;
+    color: #666;
+
+}
+
+.price{
+    display: inline-flex;
+    gap: 30px;
+    
+}
+
+.right-side .heading .price .disc-btn p{
+    background-color: black;
+    border-radius: 5px;
+    color: #fff;
+    padding:2px 8px;
+    font-size: 1.2em;
+    text-align: center;
+
+}
+
+.right-side .heading .btns{
+    display: flex;
+    gap: 30px;
+    font-size: 2em;
+    
+}
+.right-side .heading .btns .btn-add-cart{
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 24px;
+    
+    
+}
+
+.right-side .heading .btns button{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+
+    
+
+
+}
+
+.heading .btns button.first-btn:hover, .heading .btns .btn-add-cart:hover{
+    letter-spacing: 2px;
+}
+
